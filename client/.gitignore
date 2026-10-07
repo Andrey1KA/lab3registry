@@ -7,9 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+node_modules/
+.cache/
+private/keys.txt
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+.nyc_output/
+.eslintcache
+tmp/
+temp/
+*.tmp
 *.local
 
 # Editor directories and files
